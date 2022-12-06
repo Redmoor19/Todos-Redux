@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.app {
+    background-color: rgb(147, 117, 219);
+    width: 100%;
+    min-height: auto;
+    margin-top: 70px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px 0;
+}
+.main {
+    width: 70%;
+}
+.side {
+    width: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

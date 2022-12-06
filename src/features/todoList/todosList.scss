@@ -1,0 +1,18 @@
+.todosList {
+    background-color: rgba($color: #ffffff, $alpha: .50);
+    width: auto;
+    height: auto;
+    margin: 30px 17px;
+    border: 3px solid rgba($color: #ffffff, $alpha: .70);
+    border-radius: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.empty {
+    font-size: 20px;
+    text-align: center;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+}

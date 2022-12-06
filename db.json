@@ -1,0 +1,37 @@
+{
+  "todos": [],
+  "filters": [
+    {
+      "id": "red",
+      "text": "red",
+      "status": true
+    },
+    {
+      "id": "orange",
+      "text": "orange",
+      "status": true
+    },
+    {
+      "id": "green",
+      "text": "green",
+      "status": true
+    },
+    {
+      "id": "blue",
+      "text": "blue",
+      "status": true
+    },
+    {
+      "id": "purple",
+      "text": "purple",
+      "status": false
+    },
+    {
+      "id": "brown",
+      "text": "brown",
+      "status": false
+    }
+  ]
+}
+
+

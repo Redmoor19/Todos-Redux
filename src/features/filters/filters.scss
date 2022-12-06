@@ -1,0 +1,57 @@
+.filters {
+    background-color: rgb(107, 51, 133);
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 10px;
+    &__item {
+        line-height: 40px;
+        padding: 0 10px;
+        width: 100%;
+        text-align: center;
+        font-size: large;
+        text-transform: uppercase;
+        color: #fff;
+        cursor: pointer;
+        &:nth-child(1) {
+            border-radius: 10px 0 0 10px;
+        }
+        &:nth-child(3) {
+            border-radius: 0 10px 10px 0;
+        }
+    }
+    &__button {
+        background-color: rgb(107, 51, 133);
+        border: none;
+        border-radius: 10px;
+        width: auto;
+        padding: 0 5px;
+        height: 50px;
+        color: #fff;
+        font-size: 20px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    &__left{
+        text-align: center;
+        margin-top: 10px;
+        color: #fff;
+    }
+}
+
+.active {
+    background-color: rgb(151, 76, 185);
+}
+
+.buttons {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
